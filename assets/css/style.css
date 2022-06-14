@@ -1,0 +1,171 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 80px;
+    background-color:#484538;
+    color:#fff;
+}
+
+
+
+nav ul,
+nav li{
+    display:flex;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    border-bottom: 1px solid #cad49d;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color:#56a3a6;
+}
+
+.section,.boas-vindas h3{
+    font-size:22px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 100px;
+
+    
+}
+
+.sub-card{
+    margin:5px;
+}
+.sub-card img{
+    margin-top: 4px;
+    width: 230px;
+    height: 150px;
+   
+   
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#484538;
+    color: #fff;
+
+}
+
+.footer-icones{
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+.menu-opener{
+    display: none;
+    top: 10px;
+    width:45px;
+    margin-right: 20px;
+}
+
+.logo img{
+    width:150px;
+}
+.boas-vindas h3{
+    font-size: 16px;
+    text-align: justify;
+    text-transform:uppercase;
+    
+    
+}
+.boas-vindas h4{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+@media (max-width:600px){
+
+    .sub-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu-opener{
+        display: block;
+        width:45px;
+        margin-right: 20px;
+        
+    }
+    .logo img{
+        width:130px;
+       
+    }
+
+   
+    .menu nav ul {
+        
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh);
+        right: 0;
+    }
+    
+    .menu ul{
+
+        flex-direction: column;
+    }
+
+    .boas-vindas h4{
+        font-size: 12px;
+        text-align: justify;
+        
+    }
+
+    .boas-vindas h3{
+        font-size: 16px;
+        text-align: justify;
+        text-transform:uppercase;
+        
+        
+    }
+
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+   
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer, .footer-icones{
+        font-size: 8px;
+       
+    }
+}
