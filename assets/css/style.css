@@ -139,7 +139,7 @@ a:hover{
         display: none;
         position: absolute;
         z-index: 99;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(72,69,56, 0.9);
         width: 80vw;
         height: calc(100vh);
         right: 0;
