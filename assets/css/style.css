@@ -283,3 +283,10 @@ a:hover{
     }
 
 }
+@media (min-width:620px) AND (max-width:2000px){
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
+
+}
