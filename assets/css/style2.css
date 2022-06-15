@@ -58,6 +58,10 @@ a:hover{
 .descri {
     margin-left: 10px;
 }
+.comprar{
+    margin-bottom: 35px;
+}
+
 
 .comprar, .fa-whatsapp{
     font-size: 30px;
@@ -72,6 +76,7 @@ a:hover{
 .comprar span{
     font-weight: 600;
     font-size: 16px;
+    color: #56a3a6;
 }
 
 .footer{
