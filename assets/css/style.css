@@ -65,7 +65,8 @@ a:hover{
 
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items:center;
     background-color:#484538;
     color: #fff;
 
@@ -74,6 +75,9 @@ a:hover{
 .footer-icones{
     font-size: 12px;
     font-weight: 300px;
+    margin-left:10px;
+    margin-right:10px;
+
 }
 
 .menu-opener{
@@ -102,6 +106,9 @@ a:hover{
 
 @media (max-width:600px){
 
+
+
+  
     .sub-card img {
         width: 100%;
         height: auto;
@@ -169,8 +176,21 @@ a:hover{
         align-items: center;
     }
 
+    .footer{
+        height:50px;
+    }
+
     .footer, .footer-icones{
-        font-size: 8px;
+        font-size: 12px;
        
     }
+
+    .footer a{
+        color:#fff;
+    }
+
+    .footer, .fa-solid, .fa-brands{
+        font-size:20px;
+    }
+
 }
