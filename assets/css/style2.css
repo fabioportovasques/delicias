@@ -77,6 +77,10 @@ a:hover{
     font-weight: 600;
     font-size: 16px;
     color: #56a3a6;
+    
+}
+.caract{
+    line-height: 1.5;
 }
 
 .footer{
@@ -186,6 +190,9 @@ a:hover{
 
     .footer{
         height:50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer, .footer-icones{
