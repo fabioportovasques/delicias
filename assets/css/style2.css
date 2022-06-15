@@ -124,10 +124,6 @@ a:hover{
 @media (max-width:600px){
 
 
-
-  
-    
-
     .menu-opener{
         display: block;
         width:45px;
@@ -206,6 +202,14 @@ a:hover{
 
     .footer, .fa-solid, .fa-brands{
         font-size:20px;
+    }
+
+}
+
+@media (min-width:620px) AND (max-width:2000px){
+    .footer{
+        position: absolute;
+        bottom: 0;
     }
 
 }
