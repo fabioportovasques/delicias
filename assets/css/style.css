@@ -77,10 +77,41 @@ a:hover{
     
 }
 
-.sub-card-photoinfo h5{
+.sub-cad-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.sub-cad-position h4 {
+    margin-top:-10px;
+    font-size: 12px;
+}
+
+.sub-cad-position h5 {
+
+    font-size: 14px;
+}
+.sub-cad-position h3 {
+
+    font-size: 12px;
+    margin-top:-5px;
+}
+
+.sub-cad-position h2 {
+
+    font-size: 14px;
+    margin-top:-10px;
+}
+
+
+/* .sub-card-photoinfo h5{
     font-size: 12px;
     font-weight: 300px;
-}
+} */
 
 .sub-card:hover .sub-card-photoinfo{
     display: flex;
