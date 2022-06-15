@@ -58,9 +58,39 @@ a:hover{
     margin-top: 4px;
     width: 230px;
     height: 150px;
-   
+}
+
+/* efeito quando passar o mouse em cima */
+
+.sub-card-photoinfo{
+    position: absolute;
+    background-color: rgba(72,69,56, 0.9);
+    width:230px;
+    height:150px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform:uppercase;
    
     
+}
+
+.sub-card-photoinfo h5{
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+.sub-card:hover .sub-card-photoinfo{
+    display: flex;
+    padding:5px;
+}
+
+.sub-card-photoinfo a{
+    color:#fff;
+    text-decoration: none;
+
 }
 
 .footer{
@@ -125,6 +155,21 @@ a:hover{
         display: block;
         width:45px;
         margin-right: 20px;
+        
+    }
+
+    .sub-card-photoinfo{
+        position: absolute;
+        background-color: rgba(72,69,56, 0.9);
+        width:100%;
+        height:100px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-transform:uppercase;
+       
         
     }
     .logo img{
