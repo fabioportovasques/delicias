@@ -114,7 +114,8 @@ a:hover{
         
     }
     .logo img{
-        width:130px;
+        width:110px;
+       
        
     }
 
@@ -138,12 +139,16 @@ a:hover{
     .boas-vindas h4{
         font-size: 12px;
         text-align: justify;
+        padding-right: 5px;
+        padding-left: 5px;
         
     }
 
     .boas-vindas h3{
         font-size: 16px;
         text-align: justify;
+        padding-right: 5px;
+        padding-left: 5px;
         text-transform:uppercase;
         
         
